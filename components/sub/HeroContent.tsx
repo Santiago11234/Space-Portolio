@@ -9,7 +9,7 @@ import {
 } from "@/utils/motion";
 
 const HeroContent = () => {
-
+ 
   const [windowWidth, setWindowWidth] = useState(0);
 
 useEffect(() => {
