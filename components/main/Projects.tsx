@@ -11,20 +11,17 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        <ProjectCard  
+          title="Website 1"
+          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Website 2"
+          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Website 3"
+          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
         />
       </div>
     </div>

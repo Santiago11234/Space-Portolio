@@ -2,25 +2,28 @@ import Image from "next/image";
 import React from "react";
 
 interface Props {
-  src: string;
   title: string;
   description: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
-  return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
-      />
 
-      <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+const ProjectCard = ({  title, description }: Props) => {
+  return (
+    <div className="card transform transition duration-500 hover:scale-110 bg-gray-800 rounded-xl overflow-hidden shadow-lg z-[200]">
+      <div className="mx-auto my-4 flex items-center justify-center rounded h-[220px] relative">
+        <Image
+          src={'/8.png'}
+          alt={"image"}
+          fill={true}
+          style={{ objectFit: 'contain', width: '100%', height: '100%' }}
+          className="rounded-t-xl absolute"
+        />
+      </div>
+      <div className="p-4 flex justify-between">
+        <div>
+          <h2 className="text-lg font-bold">{title}</h2>
+          <p className="text-gray-400">{description}</p>
+        </div>
       </div>
     </div>
   );
