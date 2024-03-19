@@ -45,7 +45,9 @@ useEffect(() => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Space Themed Personal Website With Super Cool Information About Me And What I Have Built Along With Cool Animations
+          I&apos;m a full-stack developer who specializes in building websites
+          and applications that are both visually stunning and highly
+          functional.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
