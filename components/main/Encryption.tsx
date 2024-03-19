@@ -13,34 +13,34 @@ const Encryption = () => {
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          This
+          Steve
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              Is My{" "}
+              TSA{" "}
             </span>
-           Name
+           Jobs
         </motion.div>
       </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
-            src="/7.png"
+            src="/steve.jpeg"
             alt="log"
             width={350}
             height={350}
-            className=" z-10"
+            className=" z-10 rounded-full"
           />
            <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          Here Is A 
+          Growing
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              Description{" "}
+              Leader{" "}
             </span>
-           About Me
+           Within TSA
         </motion.div>
 
         </div>

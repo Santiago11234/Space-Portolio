@@ -12,16 +12,19 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard  
-          title="Website 1"
-          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
+          title="Google"
+          image="/google.webp"
+          description="A comprehensive search engine that revolutionized the way we access information online. It provides a vast array of services, including search, maps, email, and more, making it a central hub for digital services."
         />
         <ProjectCard
-          title="Website 2"
-          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
+          title="ChatGPT"
+          image="/chatgpt.webp"
+          description="An advanced AI language model that can generate human-like text based on the input it receives. It's capable of engaging in conversations, answering questions, and even writing content."
         />
         <ProjectCard
-          title="Website 3"
-          description="I am not sure if I can show actual projects, so I will write this description here for now. In a real website, I would have a description of the project here."
+          title="Microsoft"
+          image="/microsoft.avif"
+          description="A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services."
         />
       </div>
     </div>

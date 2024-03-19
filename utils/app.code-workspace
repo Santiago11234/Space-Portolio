@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "app",
+			"path": "../app"
+		},
+		{
+			"name": "UTE-Personal-Webpages",
+			"path": "../../Personal-UTE/UTE-Personal-Webpages"
+		},
+		{
+			"name": "components",
+			"path": "../components"
+		},
+		{
+			"name": "node_modules",
+			"path": "../node_modules"
+		},
+		{
+			"name": "public",
+			"path": "../public"
+		},
+		{
+			"name": "utils",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#123456]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#123456]/50 bg-[#03001417] backdrop-blur-md z-[250] px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#home"
@@ -11,7 +11,7 @@ const Navbar = () => {
         >
           
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            My Name
+            Steve &quot;TSA&quot; Jobs
           </span>
         </a>
 
@@ -25,6 +25,9 @@ const Navbar = () => {
     </a>
     <a href="#projects" className="cursor-pointer hover:underline">
       Projects
+    </a>
+    <a href="#documentation" className="cursor-pointer hover:underline">
+      Documentation
     </a>
   </div>
 </div>
